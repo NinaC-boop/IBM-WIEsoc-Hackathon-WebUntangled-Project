@@ -1,0 +1,173 @@
+$lorange:#FFD8A6;
+$orange:#FFBD59;
+$dorange:#E6A550;
+$borange:#F6A62C;
+$llgrey:#E5E5E5;
+$lgrey:#C9C9C9;
+$grey:#333;
+$dgrey:#242424;
+$dblue:#3A405A;
+$dwhite:#f9faf9;
+$square:#ebebeb;
+
+.wide {
+    width: 100%;
+    padding: 10px;
+}
+
+a {
+    color:$dblue;
+}
+
+.example-font {
+    font-family: 'Roboto Mono', monospace;
+  }
+
+.platform-img {
+    margin: 10px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.messages {
+    background-color: white;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    height: 120px;
+}
+
+.forum-nav {
+    margin-top: 20px;
+    padding-top: 3px;
+    color: white;
+    background-color: $borange; 
+}
+
+.forum-board {
+    background-color: $square;
+}
+
+.nav {
+    margin: 15px;
+}
+
+.gallery-box {
+    margin-top: 12px;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 2ch;
+    max-width: 300px;
+    padding: 6px 4px 6px 4px;
+    margin: 20px;
+}
+
+.gallery-col {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px;
+    margin: 1px;
+}
+
+
+img {
+    width:auto;
+    height:auto;
+}
+
+.container {
+    text-align: center;
+}
+
+.search-field {
+    text-align: center;
+}
+
+.input-line {
+    width:50%;
+}
+
+.header {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+body {
+    background-color: $dwhite;
+}
+
+.footer {
+    color: $grey;
+    text-align: center;
+}
+
+.logo {
+    width:20%;
+    margin:10px;
+    align-self: flex-end;
+}
+
+.container-center {
+    min-height: 100%;
+    min-height: 100vh;
+  
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    height:200px;
+    width: 100%;
+    margin: 20px;
+    font-size: xx-large;
+}
+
+.separator {
+    margin: 20px;
+}
+
+.btn-primary {
+    background-color: $llgrey;
+    border-color: $llgrey;
+    color: $dgrey;
+}
+
+.btn-primary:hover {
+    background-color: $lgrey;
+    border-color: $lgrey;
+    color: white;
+}
+
+.btn-primary:target,
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: $dgrey;
+    border-color:$dgrey;
+    color:white;
+}
+
+.btn-secondary {
+    background-color: $orange;
+    border-color:$orange;
+}
+
+.btn-secondary:hover {
+    background-color: $dorange;
+    border-color:$dorange;
+    color:white;
+}
+
+.btn-secondary:focus {
+    background-color: $dblue;
+    border-color:$dblue;
+    color:white;
+}
+
+
+
+/* 
+sass styles.scss:styles.css
+sass --watch styles.scss:styles.css
+*/

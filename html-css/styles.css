@@ -1,0 +1,159 @@
+.wide {
+  width: 100%;
+  padding: 10px;
+}
+
+a {
+  color: #3A405A;
+}
+
+.example-font {
+  font-family: "Roboto Mono", monospace;
+}
+
+.platform-img {
+  margin: 10px;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.messages {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  height: 120px;
+}
+
+.forum-nav {
+  margin-top: 20px;
+  padding-top: 3px;
+  color: white;
+  background-color: #F6A62C;
+}
+
+.forum-board {
+  background-color: #ebebeb;
+}
+
+.nav {
+  margin: 15px;
+}
+
+.gallery-box {
+  margin-top: 12px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 2ch;
+  max-width: 300px;
+  padding: 6px 4px 6px 4px;
+  margin: 20px;
+}
+
+.gallery-col {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px;
+  margin: 1px;
+}
+
+img {
+  width: auto;
+  height: auto;
+}
+
+.container {
+  text-align: center;
+}
+
+.search-field {
+  text-align: center;
+}
+
+.input-line {
+  width: 50%;
+}
+
+.header {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+body {
+  background-color: #f9faf9;
+}
+
+.footer {
+  color: #333;
+  text-align: center;
+}
+
+.logo {
+  width: 20%;
+  margin: 10px;
+  align-self: flex-end;
+}
+
+.container-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  height: 200px;
+  width: 100%;
+  margin: 20px;
+  font-size: xx-large;
+}
+
+.separator {
+  margin: 20px;
+}
+
+.btn-primary {
+  background-color: #E5E5E5;
+  border-color: #E5E5E5;
+  color: #242424;
+}
+
+.btn-primary:hover {
+  background-color: #C9C9C9;
+  border-color: #C9C9C9;
+  color: white;
+}
+
+.btn-primary:target,
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: #242424;
+  border-color: #242424;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #FFBD59;
+  border-color: #FFBD59;
+}
+
+.btn-secondary:hover {
+  background-color: #E6A550;
+  border-color: #E6A550;
+  color: white;
+}
+
+.btn-secondary:focus {
+  background-color: #3A405A;
+  border-color: #3A405A;
+  color: white;
+}
+
+/* 
+sass styles.scss:styles.css
+sass --watch styles.scss:styles.css
+*/
+
+/*# sourceMappingURL=styles.css.map */

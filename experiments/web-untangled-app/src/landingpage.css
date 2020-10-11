@@ -1,0 +1,125 @@
+.board {
+  width: 100%;
+}
+
+.nav {
+  margin: 15px;
+}
+
+.gallery-box {
+  margin-top: 12px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 2ch;
+  max-width: 300px;
+  padding: 6px 4px 6px 4px;
+  margin: 0px;
+}
+
+.gallery-col {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px;
+  margin: 1px;
+}
+
+img {
+  width: auto;
+  height: auto;
+}
+
+.container {
+  text-align: center;
+}
+
+.search-field {
+  text-align: center;
+}
+
+.input-line {
+  width: 50%;
+}
+
+.header {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+body {
+  background-color: #f9faf9;
+}
+
+.footer {
+  color: #333;
+  text-align: center;
+}
+
+.logo {
+  width: 20%;
+  margin: 10px;
+  align-self: flex-end;
+}
+
+.container-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  height: 200px;
+  width: 100%;
+  margin: 20px;
+  font-size: xx-large;
+}
+
+.separator {
+  margin: 20px;
+}
+
+.btn-primary {
+  background-color: #e5e5e5;
+  border-color: #e5e5e5;
+  color: #242424;
+}
+
+.btn-primary:hover {
+  background-color: #c9c9c9;
+  border-color: #c9c9c9;
+  color: white;
+}
+
+.btn-primary:target,
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: #242424;
+  border-color: #242424;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #ffbd59;
+  border-color: #ffbd59;
+}
+
+.btn-secondary:hover {
+  background-color: #e6a550;
+  border-color: #e6a550;
+  color: white;
+}
+
+.btn-secondary:focus {
+  background-color: #3a405a;
+  border-color: #3a405a;
+  color: white;
+}
+
+/* 
+  sass styles.scss:styles.css
+  sass --watch styles.scss:styles.css
+  */
+
+/*# sourceMappingURL=styles.css.map */
